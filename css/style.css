@@ -1,0 +1,99 @@
+/* REGOLE GENERALI PAGINA */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* REGOLE DELLA PAGINA */
+
+/* INTESTAZIONE DELLA PAGINA */
+header {
+  background-color: white;
+  height: 6vh;
+}
+header img {
+  width: 50%;
+}
+header nav a {
+  color: #000;
+}
+li {
+  display: inline;
+  line-height: 6vh;
+  vertical-align: middle;
+}
+nav:nth-of-type(1) li {
+  margin-left: 20px;
+}
+nav:nth-of-type(1) li:first-child {
+  margin-left: 0px;
+}
+nav:nth-of-type(1) li:last-child {
+  margin-right: 0;
+}
+nav:nth-of-type(2){
+  text-align: right;
+}
+nav:nth-of-type(2) li {
+  margin-left: 20px;
+}
+ul:nth-of-type(2), button {
+  display: inline-block;
+}
+/* CORPO DELLA PAGINA */
+
+/* SEZIONE 1 */
+#first {
+  background-color: orange;
+  height: 100vh;
+}
+
+/* SEZIONE 2 */
+#second {
+  background-color: red;
+  height: 100vh;
+}
+
+/* SEZIONE 3 */
+#third {
+  background-color: pink;
+  height: 100vh;
+}
+
+/* SEZIONE 4 */
+#fourth {
+  background-color: violet;
+  height: 100vh;
+}
+
+/* SEZIONE 5 */
+#fifth {
+  background-color: purple;
+  height: 100vh;
+}
+
+/* SEZIONE 6 */
+#sixth {
+  background-color: yellow;
+  height: 100vH;
+}
+
+/* SEZIONE 7 */
+#seventh {
+  background-color: green;
+  height: 100vh;
+}
+
+/* SEZIONE 8 */
+#eigth {
+  background-color: blue;
+  height: 100vh;
+}
+
+/*  PIE' DI PAGINA */
+footer {
+  background-color: black;
+  height: 100vh;
+}
