@@ -13,19 +13,19 @@ body {
 /* INTESTAZIONE DELLA PAGINA */
 header {
   background-color: white;
+  height: 70px;
+  line-height: 70px;
 }
 header img {
-  width: 70%;
-  margin: 20px 0;
+  height: 50px;
 }
 header nav a {
   color: #000;
 }
-ul {
-  padding: 40px  0;
+header ul {
   margin-bottom: 0;
 }
-li {
+header ul li {
   display: inline;
   text-align: center;
 }
@@ -52,7 +52,12 @@ nav:nth-of-type(2) ul li:last-child a {
 nav:nth-of-type(2) li {
   margin-left: 20px;
 }
-
+@media screen and (max-width: 992px) {
+  nav.left,
+  nav.right {
+    display: none;
+  }
+}
 /* CORPO DELLA PAGINA */
 
 /* SEZIONE 1 */
@@ -71,7 +76,7 @@ nav:nth-of-type(2) li {
   font-size: 38pt;
 }
 #text-sx p {
-  font-size: 15pt;
+  font-size: 14pt;
 }
 /* SEZIONE 1 LATO DESTRO */
 #form-dx {
