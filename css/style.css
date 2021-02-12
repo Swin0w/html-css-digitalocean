@@ -5,7 +5,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 /* REGOLE DELLA PAGINA */
 
 /* INTESTAZIONE DELLA PAGINA */
