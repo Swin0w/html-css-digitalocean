@@ -16,13 +16,14 @@ header {
 }
 header img {
   width: 70%;
-  margin: 10px;
+  margin: 20px 0;
 }
 header nav a {
   color: #000;
 }
 ul {
-  padding: 7.2%  0;
+  padding: 40px  0;
+  margin-bottom: 0;
 }
 li {
   display: inline;
@@ -55,21 +56,31 @@ nav:nth-of-type(2) li {
 /* CORPO DELLA PAGINA */
 
 /* SEZIONE 1 */
+/* SEZIONE 1 LATO SINISTRO */
 #first {
-  background-color: #004aff;
-  z-index: -1;
-}
-#lay {
   background-image: url("../img/jumbo.svg");
   background-size: cover;
-  z-index: 999;
+  padding: 40px 0;
 }
 #text-sx {
   color: white;
 }
+#text-sx h1 {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  font-size: 38pt;
+}
+#text-sx p {
+  font-size: 15pt;
+}
+/* SEZIONE 1 LATO DESTRO */
+#form-dx {
+  background-color: white;
+}
+
 /* SEZIONE 2 */
 #second {
-  background-color: red;
+  background-color: #f3f5f9;
   height: 100vh;
 }
 
