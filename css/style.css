@@ -11,6 +11,9 @@ body {
 .margin {
   margin: 50px 0;
 }
+.box {
+  padding: 30px 0;
+}
 /* REGOLE DELLA PAGINA */
 
 /* INTESTAZIONE DELLA PAGINA */
@@ -163,9 +166,7 @@ nav:nth-of-type(2) li {
 #fourth h3, #fourth p {
   text-align: center;
 }
-.box {
-  padding: 30px 0;
-}
+
 #fourth #sx i, #fourth #dx i {
   line-height: 500px;
   vertical-align: middle;
@@ -199,11 +200,31 @@ nav:nth-of-type(2) li {
   font-weight: bold;
   text-align: center;
 }
+@@media screen and (max-width: 1799px) {
+ #fifth img, #fifth h4, #fifth p, #fifth a {
+  text-align: center;
+ }
+}
 
+
+#fifth h4 {
+  font-weight: bold;
+  color: #000;
+}
+#fifth p {
+  margin-bottom: 20px;
+}
+#fifth img {
+  margin-bottom: 20px;
+}
 /* SEZIONE 6 */
 #sixth {
-  background-color: yellow;
-  height: 100vH;
+  background: linear-gradient(#0324ff, #0011c7);
+}
+#sixth h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
 }
 
 /* SEZIONE 7 */
@@ -214,12 +235,22 @@ nav:nth-of-type(2) li {
 
 /* SEZIONE 8 */
 #eigth {
-  background-color: blue;
-  height: 100vh;
+  background: linear-gradient(#0324ff, #0011c7);
+  text-align: center;
+  padding: 100px 0;
 }
-
+#eigth h1 {
+  color: white;
+}
+#eigth button {
+  width: 200px;
+  height: 30px;
+  color: #0595f5;
+  border: none;
+  border-radius: 5px;
+}
 /*  PIE' DI PAGINA */
 footer {
-  background-color: black;
+  background-color: #121b80;
   height: 100vh;
 }
