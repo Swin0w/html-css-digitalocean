@@ -98,10 +98,32 @@ nav:nth-of-type(2) li {
 #form-dx h2:nth-child(2) {
   color: #004aff;
 }
-#form-dx input {
+#form-dx form input {
   margin: 10px 0;
 }
-
+#form-dx form input[type="submit"] {
+  background-color: #59afff;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  height: 30px;
+}
+#form-dx form button {
+  background-color: #d9dcde;
+  border: none;
+  border-radius: 4px;
+  height: 30px;
+}
+#form-dx form button img {
+  width: 16px;
+  height: 16px;
+  line-height: 30px;
+  vertical-align: middle;
+  float: left;
+}
+#form-dx form input::placeholder {
+  font-size: 12pt;
+}
 /* SEZIONE 2 */
 #second {
   background-color:#faf5f5;
@@ -171,7 +193,7 @@ nav:nth-of-type(2) li {
   line-height: 500px;
   vertical-align: middle;
 }
-#fourth #sx i {
+#fourth #sx {
   text-align: right;
 }
 #fourth img {
@@ -200,13 +222,6 @@ nav:nth-of-type(2) li {
   font-weight: bold;
   text-align: center;
 }
-@media screen and (max-width: 1799px) {
- #fifth img, #fifth h4, #fifth p, #fifth a {
-  text-align: center;
- }
-}
-
-
 #fifth h4 {
   font-weight: bold;
   color: #000;
@@ -252,5 +267,30 @@ nav:nth-of-type(2) li {
 /*  PIE' DI PAGINA */
 footer {
   background-color: #121b80;
-  height: 100vh;
+  padding: 40px 0;
+}
+footer img {
+  margin-bottom: 10px;
+}
+footer h4 {
+  color: white;
+}
+footer p, footer li a {
+  color: #c7c3c3;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li a {
+  text-decoration: none;
+}
+footer i:first-child {
+  margin-left: 0;
+}
+footer i {
+  margin-right: 10px;
+}
+footer .fab{
+  font-size: 15pt;
+  color: #c7c3c3;
 }
